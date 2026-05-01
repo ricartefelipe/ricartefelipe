@@ -1,7 +1,8 @@
 <h1 align="center">Felipe Ricarte Magalhães</h1>
 
 <p align="center">
-  <strong>Staff Software Engineer</strong> &nbsp;·&nbsp; Backend Architecture &nbsp;·&nbsp; Multi-tenant SaaS
+  <strong>Backend Architect · Hands-on</strong><br/>
+  Java, Spring Boot, Quarkus &amp; Kotlin &nbsp;|&nbsp; APIs, Cloud, Distributed Systems, Event-Driven &amp; Observability
 </p>
 
 <p align="center">
@@ -12,20 +13,26 @@
 
 ---
 
-Engenheiro de software com foco em **sistemas distribuídos B2B**, arquitetura multi-tenant e governança de acesso. Projeto, implemento e opero plataformas SaaS que precisam escalar com isolamento de dados, auditoria completa e contratos claros entre serviços.
+Arquiteto de Software hands-on com **17+ anos** construindo, evoluindo e sustentando sistemas corporativos e plataformas críticas em produção.
 
-Atualmente construindo uma plataforma B2B completa — do control plane ao frontend — como portfólio de engenharia de referência.
+Atuo da arquitetura à implementação — transformando decisões técnicas em código, contratos de API, testes, pipelines, métricas e soluções operáveis. Minha base é o ecossistema **Java** (Spring Boot, Quarkus, Kotlin), com forte atuação em sistemas distribuídos, event-driven architecture, multi-tenancy e observabilidade.
+
+Mais do que defender um framework específico, minha atuação é orientada por **contexto**: escolho a solução conforme o problema, o time, a operação e o custo total.
+
+Atualmente construindo uma **plataforma B2B completa** — do control plane ao frontend — como portfólio de engenharia de referência.
 
 ---
 
-## Princípios de Engenharia
+## Como Penso Engenharia
 
 | Princípio | Na Prática |
 |-----------|-----------|
-| **Isolamento por design** | Cada tenant opera com dados completamente segregados via ABAC — sem vazamento, sem workaround |
-| **Contratos primeiro** | Serviços se comunicam por eventos tipados (outbox pattern) e REST com schemas versionados |
+| **Isolamento por design** | Cada tenant opera com dados segregados via ABAC — sem vazamento, sem workaround |
+| **Contratos primeiro** | Serviços se comunicam por eventos tipados (outbox) e REST com schemas versionados |
 | **Observabilidade nativa** | Métricas, traces e logs estruturados desde o dia zero — não como afterthought |
 | **Idempotência obrigatória** | Todo endpoint de escrita e todo consumer de fila são idempotentes por contrato |
+| **Orientado por contexto** | Spring Boot, Quarkus, serverless ou solução mais simples — depende do problema, time e custo |
+| **Produção como norte** | Código que não é operável, rastreável e sustentável não está pronto |
 
 ---
 
@@ -124,34 +131,55 @@ flowchart LR
     <td><strong>Linguagens</strong></td>
     <td>
       <img src="https://img.shields.io/badge/Java_21-ED8B00?logo=openjdk&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white"/>
       <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Python_3.12-3776AB?logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white"/>
     </td>
   </tr>
   <tr>
     <td><strong>Frameworks</strong></td>
     <td>
       <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?logo=springboot&logoColor=white"/>
-      <img src="https://img.shields.io/badge/NestJS_10-E0234E?logo=nestjs&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Quarkus-4695EB?logo=quarkus&logoColor=white"/>
+      <img src="https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white"/>
       <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Angular_21-DD0031?logo=angular&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white"/>
     </td>
   </tr>
   <tr>
-    <td><strong>Dados</strong></td>
+    <td><strong>Dados & Messaging</strong></td>
     <td>
-      <img src="https://img.shields.io/badge/PostgreSQL_16-336791?logo=postgresql&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Redis_7-DC382D?logo=redis&logoColor=white"/>
+      <img src="https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white"/>
       <img src="https://img.shields.io/badge/RabbitMQ-FF6600?logo=rabbitmq&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Kafka-231F20?logo=apachekafka&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Liquibase-2962FF?logo=liquibase&logoColor=white"/>
     </td>
   </tr>
   <tr>
-    <td><strong>Infra & Ops</strong></td>
+    <td><strong>Cloud</strong></td>
     <td>
+      <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazonwebservices&logoColor=white"/>
+      <img src="https://img.shields.io/badge/GCP-4285F4?logo=googlecloud&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white"/>
       <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Infra & CI/CD</strong></td>
+    <td>
       <img src="https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Railway-0B0D0E?logo=railway&logoColor=white"/>
       <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Railway-0B0D0E?logo=railway&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Segurança</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Keycloak-4D4D4D?logo=keycloak&logoColor=white"/>
+      <img src="https://img.shields.io/badge/OAuth2/OIDC-000000?logo=openid&logoColor=white"/>
+      <img src="https://img.shields.io/badge/JWT-000000?logo=jsonwebtokens&logoColor=white"/>
     </td>
   </tr>
   <tr>
@@ -160,6 +188,7 @@ flowchart LR
       <img src="https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white"/>
       <img src="https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white"/>
       <img src="https://img.shields.io/badge/OpenTelemetry-000000?logo=opentelemetry&logoColor=white"/>
+      <img src="https://img.shields.io/badge/OpenAPI-6BA539?logo=openapiinitiative&logoColor=white"/>
     </td>
   </tr>
 </table>
