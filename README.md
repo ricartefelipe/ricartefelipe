@@ -8,6 +8,8 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/felipe-ricarte-magalhaes/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"/></a>&nbsp;
   <a href="mailto:felipericartem@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" alt="Email"/></a>&nbsp;
+  <a href="https://github.com/ricartefelipe"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub"/></a>&nbsp;
+  <a href="https://www.unionsolutions.com.br/"><img src="https://img.shields.io/badge/Union_Solutions-Site-0052CC" alt="Union Solutions"/></a>&nbsp;
   <img src="https://komarev.com/ghpvc/?username=ricartefelipe&style=flat&color=grey" alt="Profile views"/>
 </p>
 
@@ -19,7 +21,7 @@ Atuo da arquitetura à implementação — transformando decisões técnicas em 
 
 Mais do que defender um framework específico, minha atuação é orientada por **contexto**: escolho a solução conforme o problema, o time, a operação e o custo total.
 
-Atualmente construindo uma **plataforma B2B completa** — do control plane ao frontend — como portfólio de engenharia de referência.
+Atualmente na [**Union Solutions**](https://www.unionsolutions.com.br/), construindo uma **plataforma B2B completa** — do control plane ao frontend — como portfólio de engenharia de referência.
 
 ---
 
@@ -212,8 +214,8 @@ flowchart LR
 <summary><strong>GitHub Stats</strong></summary>
 <br/>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ricartefelipe&show_icons=true&theme=default&hide_border=true&count_private=true" alt="Stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ricartefelipe&layout=compact&hide_border=true&langs_count=8" alt="Langs" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ricartefelipe&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="Estatísticas do GitHub" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ricartefelipe&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Linguagens mais usadas" height="165"/>
 </p>
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ricartefelipe&hide_border=true" alt="Streak" height="165"/>
