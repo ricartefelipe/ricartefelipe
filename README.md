@@ -24,7 +24,7 @@ Hoje dedico esforço a uma **plataforma B2B de referência**, com control plane,
 
 ---
 
-## Princípios na prática
+## Principios na prática
 
 | Princípio | O que significa |
 |-----------|-----------------|
