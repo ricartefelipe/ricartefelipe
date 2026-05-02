@@ -27,7 +27,7 @@ Atualmente na [**Union Solutions**](https://www.unionsolutions.com.br/), constru
 
 ## Como Penso Engenharia
 
-| Princípio | Na Prática |
+| Princípio | Na Pratica |
 |-----------|-----------|
 | **Isolamento por design** | Cada tenant opera com dados segregados via ABAC — sem vazamento, sem workaround |
 | **Contratos primeiro** | Serviços se comunicam por eventos tipados (outbox) e REST com schemas versionados |
