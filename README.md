@@ -1,125 +1,66 @@
 # Felipe Ricarte Magalhães
 
-**Senior Backend Engineer | Java, Kotlin, Spring & Quarkus | Distributed Systems & Cloud**
+**Engenheiro backend sênior · Arquiteto de software hands-on**
 
-Projeto e implemento sistemas backend com foco em produção, confiabilidade, escalabilidade e evolução sustentável.
+Projeto e construo backends que sobem para produção: contratos claros, integrações que não quebram sob pressão, mensageria e consistência onde importa, e observabilidade suficiente para saber o que falhou antes do cliente te contar.
 
-Sou engenheiro backend sênior e arquiteto de software hands-on, com mais de 17 anos de experiência construindo, modernizando e sustentando sistemas corporativos e plataformas críticas. Minha atuação conecta arquitetura, implementação e operação, com foco em performance, rastreabilidade, observabilidade, segurança e previsibilidade operacional.
+Há mais de 17 anos em tecnologia. Trabalho na fronteira entre desenho e código — desenho para operação, não para slide. Java e Kotlin são minha base; Spring Boot e Quarkus são onde costumo entregar serviços, APIs e integrações que precisam evoluir com segurança ao longo do tempo.
 
 ## Atuação principal
 
-- Backend engineering com Java e Kotlin
-- Arquitetura aplicada a sistemas distribuídos
-- APIs REST, mensageria e processamento assíncrono
-- Event-driven architecture e integração entre serviços críticos
-- Evolução segura de sistemas em produção
-- Observabilidade, confiabilidade e troubleshooting
-- Multitenancy, segurança e rastreabilidade ponta a ponta
+- Backend e APIs em ambientes corporativos e integrações críticas
+- Sistemas distribuídos, contratos entre serviços e arquitetura orientada a eventos quando o domínio pede assincronismo
+- Mensageria, fluxos transacionais, multitenancy e segurança aplicada (identidade, autorização, trilhas de auditoria)
+- Confiabilidade em produção: falhas esperadas, reprocessamento idempotente, evolução de schema e rollout sem surpresa
+- Observabilidade pensada como parte do sistema — métricas, logs e correlação para troubleshooting real
 
 ## Stack principal
 
-**Backend**
+**Linguagens e frameworks:** Java · Kotlin · Spring Boot · Quarkus  
 
-- Java
-- Kotlin
-- Spring Boot
-- Quarkus
+**Dados e migrações:** PostgreSQL · Liquibase · Redis  
 
-**Integração e mensageria**
+**Integração e contratos:** REST/OpenAPI (Swagger) · mensageria (ex.: RabbitMQ) · integrações síncronas e assíncronas  
 
-- Kafka
-- RabbitMQ
-- gRPC
-- REST APIs
-- Webhooks
+**Segurança e identidade:** Keycloak · OAuth2/OIDC · JWT · modelos de autorização alinhados ao domínio  
 
-**Dados e persistência**
+**Execução e nuvem:** Docker · ambientes cloud e automação de deploy conforme o projeto  
 
-- PostgreSQL
-- Redis
-- Liquibase
-- MongoDB
-
-**Segurança**
-
-- Keycloak
-- OAuth2 / OIDC
-- JWT
-- RBAC / ABAC
-
-**Cloud, DevOps e observabilidade**
-
-- Docker
-- Kubernetes
-- AWS
-- Azure
-- GCP
-- OpenTelemetry
-- Datadog
-- ELK
-- CloudWatch
+Quando o problema pede outra ferramenta, já trabalhei também com Node.js, Python, Ruby, C e front-end (Angular, Vue, React, Ionic, Flutter). Isso ajuda em integração e revisão de ponta a ponta — o foco do meu trabalho continua sendo backend e arquitetura aplicada.
 
 ## Projetos em destaque
 
-### [Fluxe B2B Suite](https://github.com/ricartefelipe/fluxe-b2b-suite)
+### [order-service](https://github.com/ricartefelipe/order-service)
 
-Suite SaaS multi-tenant voltada a cenários B2B, com foco em isolamento por tenant, organização modular, integração entre serviços e operação evolutiva.
+Microserviço de pedidos: recebe pedidos de sistemas externos, calcula totais, persiste em PostgreSQL e expõe APIs para consulta.
 
-**Destaques**
+### [assinaflow](https://github.com/ricartefelipe/assinaflow)
 
-- abordagem multi-tenant
-- organização voltada a domínio e evolução
-- frontends e serviços separados por responsabilidade
-- foco em operação, governança e crescimento sustentável
+Sistema de gestão de assinaturas voltado a um cenário de serviço de streaming.
 
-### [spring-saas-core](https://github.com/ricartefelipe/spring-saas-core)
+### [oficina-springboot-mvp](https://github.com/ricartefelipe/oficina-springboot-mvp)
 
-Base para soluções SaaS com foco em backend, segurança, multitenancy, contratos e componentes reutilizáveis.
+Sistema para gestão de serviços em oficinas mecânicas, com ênfase em feedback em tempo real para clientes.
 
-**Destaques**
+### [cards-api](https://github.com/ricartefelipe/cards-api)
 
-- estrutura reutilizável para backend corporativo
-- segurança e contexto por tenant
-- base para APIs, persistência e integração
+API para criação de contas bancárias e de cartões físicos e virtuais.
 
 ### [py-payments-ledger](https://github.com/ricartefelipe/py-payments-ledger)
 
-Projeto voltado a fluxo transacional e rastreabilidade de lançamentos, com preocupação com consistência, histórico e previsibilidade operacional.
+Motor de pagamentos com ledger em partidas dobradas (double-entry): FastAPI, SQLAlchemy, Stripe, PostgreSQL e RabbitMQ — incluindo preocupações como outbox, idempotência, ABAC e multi-tenant.
 
-**Destaques**
+### [meu-comercio](https://github.com/ricartefelipe/meu-comercio)
 
-- domínio financeiro
-- preocupação com integridade e trilha de auditoria
-- organização voltada a evolução segura
-
-### [node-b2b-orders](https://github.com/ricartefelipe/node-b2b-orders)
-
-Serviço backend voltado a pedidos B2B, integrações e fluxos transacionais.
-
-**Destaques**
-
-- APIs para operações de negócio
-- integrações entre componentes
-- foco em clareza de fluxo e manutenção
+Projeto em destaque no perfil GitHub.
 
 ## Como eu costumo trabalhar
 
-- transformo arquitetura em código, contratos e operação
-- priorizo soluções reproduzíveis e sustentáveis
-- trato observabilidade como parte do contrato
-- penso em falha, reprocessamento, rollback e evolução desde o desenho
-- prefiro clareza arquitetural a complexidade desnecessária
-
-## Temas que costumo explorar
-
-- sistemas distribuídos
-- mensageria e idempotência
-- outbox pattern
-- retry, DLQ e reprocessamento controlado
-- observabilidade ponta a ponta
-- segurança e identidade
-- multitenancy
-- backend para ambientes críticos
+- Modelo de domínio e contratos antes de espalhar complexidade entre serviços
+- Caos de integração tratado com mensageria, limites claros e operações repetíveis (retry, DLQ, reprocessamento onde faz sentido)
+- Mudanças em produção planejadas: migrações, feature flags quando aplicável e rollback pensado de verdade
+- Observabilidade e segurança como requisito, não como capítulo opcional no fim do projeto
+- Prefiro sistemas chatos e previsíveis a “irmãos bonitos” que ninguém consegue depurar às três da manhã
 
 ## Contato
 
