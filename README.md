@@ -4,7 +4,7 @@
 
 Projeto e implemento backends que sobem para produção: contratos claros, integrações que não quebram sob pressão, mensageria e consistência onde importa, e observabilidade suficiente para entender o que falhou antes do cliente perceber.
 
-Mais de 17 anos em tecnologia. Trabalho na fronteira entre desenho e código — desenho para operação, não para slide. Java e Kotlin são minha base; Spring Boot e Quarkus são onde costumo entregar serviços, APIs e integrações que precisam evoluir com segurança ao longo do tempo.
+Mais de 17 anos em tecnologia. Trabalho na fronteira entre desenho e código. Desenho para operação, não para slide. Java e Kotlin são minha base; Spring Boot e Quarkus são onde costumo entregar serviços, APIs e integrações que precisam evoluir com segurança ao longo do tempo.
 
 ## Atuação principal
 
