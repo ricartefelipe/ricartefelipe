@@ -26,13 +26,13 @@ Mais de 17 anos em tecnologia. Trabalho na fronteira entre desenho e código —
 
 **Execução e nuvem:** Docker · ambientes cloud e automação de deploy conforme o projeto
 
-Quando o problema pede outra ferramenta, já trabalhei também com Node.js, Python, Ruby, C e front-end com Angular, Vue, React, Ionic e Flutter. Isso ajuda em integração e revisão de ponta a ponta, mas o foco do meu trabalho continua sendo backend e arquitetura aplicada.
+Quando o problema pede outra ferramenta, já trabalhei também com Node.js, Python, Ruby, C e frontend com Angular, Vue, React, Ionic e Flutter. Isso ajuda em integração e revisão de ponta a ponta, mas o foco do meu trabalho continua sendo backend e arquitetura aplicada.
 
 ## Projetos em destaque
 
 ### [order-service](https://github.com/ricartefelipe/order-service)
 
-Microserviço de pedidos com persistência em PostgreSQL, cálculo de totais e APIs para integração e consulta.
+Microserviço de pedidos com persistência em PostgreSQL, cálculo de totais e APIs voltadas a integração e consulta.
 
 ### [assinaflow](https://github.com/ricartefelipe/assinaflow)
 
