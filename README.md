@@ -41,6 +41,10 @@ Plataforma completa de e-commerce B2B com multitenancy, arquitetura orientada a 
 
 ### Outros projetos
 
+### [archlens-ai](https://github.com/ricartefelipe/archlens-ai)
+
+Plataforma multi-tenant para governança e diagnóstico arquitetural: ingestão de repositórios, análise estática de artefatos (código, contratos OpenAPI, migrations, Docker, pipelines), relatórios com evidências rastreáveis, registro de decisões (ADR), recuperação contextual em documentação (RAG), processamento assíncrono com RabbitMQ, OIDC com Keycloak, worker Python/FastAPI e interface Next.js. Backend Quarkus 3, PostgreSQL com pgvector, Liquibase, Redis, Docker Compose.
+
 ### [cards-api](https://github.com/ricartefelipe/cards-api)
 
 API REST (Quarkus) para criação de contas bancárias e emissão de cartões físicos e virtuais, com simulação local de processadora e CVV em memória.
