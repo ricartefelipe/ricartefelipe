@@ -45,6 +45,10 @@ Plataforma completa de e-commerce B2B com multitenancy, arquitetura orientada a 
 
 Plataforma multi-tenant para governança e diagnóstico arquitetural: ingestão de repositórios, análise estática de artefatos (código, contratos OpenAPI, migrations, Docker, pipelines), relatórios com evidências rastreáveis, registro de decisões (ADR), recuperação contextual em documentação (RAG), processamento assíncrono com RabbitMQ, OIDC com Keycloak, worker Python/FastAPI e interface Next.js. Backend Quarkus 3, PostgreSQL com pgvector, Liquibase, Redis, Docker Compose.
 
+### [comercial-cloud](https://github.com/ricartefelipe/comercial-cloud)
+
+Plataforma SaaS multitenant para PDV e retaguarda web: vendas no balcão com busca rápida, carrinho e pagamentos; gestão de produtos, estoque, clientes, caixa, financeiro e dashboard. Isolamento por tenant, arquitetura hexagonal no backend Quarkus 3 (Java 21), Hibernate Panache, Liquibase, OpenAPI, frontend Next.js 14 com PDV dedicado, PostgreSQL e Docker Compose. Preparado para evoluir para JWT/OIDC (Keycloak).
+
 ### [cards-api](https://github.com/ricartefelipe/cards-api)
 
 API REST (Quarkus) para criação de contas bancárias e emissão de cartões físicos e virtuais, com simulação local de processadora e CVV em memória.
