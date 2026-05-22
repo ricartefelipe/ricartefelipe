@@ -47,7 +47,11 @@ Plataforma multi-tenant para governança e diagnóstico arquitetural: ingestão 
 
 ### [comercial-cloud](https://github.com/ricartefelipe/comercial-cloud)
 
-Plataforma SaaS multitenant para PDV e retaguarda web: vendas no balcão com busca rápida, carrinho e pagamentos; gestão de produtos, estoque, clientes, caixa, financeiro e dashboard. Isolamento por tenant, arquitetura hexagonal no backend Quarkus 3 (Java 21), Hibernate Panache, Liquibase, OpenAPI, frontend Next.js 14 com PDV dedicado, PostgreSQL e Docker Compose. Preparado para evoluir para JWT/OIDC (Keycloak).
+Plataforma SaaS multi-tenant para operação comercial de varejo: PDV web no balcão (busca de produtos, carrinho, formas de pagamento, finalização com baixa automática de estoque) e retaguarda administrativa (produtos, movimentação de estoque, clientes, vendas, abertura/fechamento de caixa, contas a receber e dashboard). Isolamento lógico por tenant com filtro HTTP e coluna `tenant_id`, trilha de auditoria, erros padronizados com correlation id, contratos OpenAPI e migrações Liquibase versionadas. Backend Quarkus 3 (Java 21), Hibernate Panache, PostgreSQL, arquitetura em camadas (domínio, aplicação, infraestrutura, REST). Frontend Next.js 14 com TypeScript, React Hook Form, Zod e TanStack Query. Monorepo com Docker Compose; preparado para JWT/OIDC (Keycloak).
+
+**Impacto:** Unifica balcão e retaguarda no mesmo produto multitenant, com fluxo operacional fechado (produto → estoque → caixa → venda → financeiro) e base repetível para onboarding de novos clientes sem reescrever o core.
+
+**Competências:** Java · Quarkus · PostgreSQL · Docker · API REST
 
 ### [cards-api](https://github.com/ricartefelipe/cards-api)
 
