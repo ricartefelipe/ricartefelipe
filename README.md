@@ -24,11 +24,11 @@ Trabalho com Java e Kotlin como base principal, usando Spring Boot e Quarkus par
 
 **Dados e migrações:** PostgreSQL · Liquibase · Redis
 
-**Integração e contratos:** REST · OpenAPI/Swagger · RabbitMQ · Kafka · padrões assíncronos
+**Integração e contratos:** REST · OpenAPI/Swagger · RabbitMQ · Kafka · eventos · outbox · idempotência
 
 **Segurança e identidade:** Keycloak · OAuth2/OIDC · JWT · RBAC/ABAC
 
-**Execução e nuvem:** Docker · Kubernetes · Cloud · CI/CD · automação de deploy
+**Execução e nuvem:** Docker · Kubernetes · AWS · GCP · Azure · CI/CD · automação de deploy
 
 Também tenho experiência com Node.js, Python, Ruby, C e frontend com Angular, Vue, React, Ionic e Flutter. Isso apoia revisão ponta a ponta, mas meu foco principal continua sendo backend e arquitetura aplicada.
 
@@ -40,7 +40,7 @@ Plataforma B2B multitenant composta por backend de governança, pedidos, pagamen
 
 ### spring-saas-core
 
-Control plane multitenant para SaaS B2B.
+Serviço central de governança multitenant para SaaS B2B.
 
 Inclui gestão de tenants, RBAC/ABAC, feature flags, auditoria, JWT, outbox transacional com RabbitMQ, PostgreSQL, Liquibase, observabilidade com Micrometer/Prometheus e documentação OpenAPI.
 
@@ -125,4 +125,3 @@ Infraestrutura como código para banco de dados em nuvem, incluindo VPC, subnets
 
 - LinkedIn: https://www.linkedin.com/in/felipe-ricarte-magalhaes/
 - GitHub: https://github.com/ricartefelipe
-- Email: felipericartem@gmail.com
