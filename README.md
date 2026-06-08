@@ -1,18 +1,22 @@
 # Felipe Ricarte Magalhães
 
-**Senior Backend Engineer · Software Architect (Hands-on)**
+**Hands-on Software Architect · Senior Backend Engineer**
 
-Projeto e implemento backends que sobem para produção: contratos claros, integrações que não quebram sob pressão, mensageria e consistência onde importa, e observabilidade suficiente para entender o que falhou antes do cliente perceber.
+Projeto e implemento backends e plataformas que precisam operar em produção com segurança, rastreabilidade e capacidade de evolução.
 
-Mais de 17 anos em tecnologia. Trabalho na fronteira entre desenho e código. Desenho para operação, não para slide. Java e Kotlin são minha base; Spring Boot e Quarkus são onde costumo entregar serviços, APIs e integrações que precisam evoluir com segurança ao longo do tempo.
+Tenho mais de 17 anos de experiência em tecnologia, atuando entre arquitetura e implementação. Meu foco principal é backend, sistemas distribuídos, integrações corporativas, mensageria, multitenancy, segurança, observabilidade e confiabilidade operacional.
+
+Trabalho com Java e Kotlin como base principal, usando Spring Boot e Quarkus para entregar APIs, serviços e integrações que precisam evoluir sem comprometer estabilidade, operação e governança.
 
 ## Atuação principal
 
-- Backend e APIs em ambientes corporativos e integrações críticas
-- Sistemas distribuídos, contratos entre serviços e arquitetura orientada a eventos quando o domínio pede assincronismo
-- Mensageria, fluxos transacionais, multitenancy e segurança aplicada, incluindo identidade, autorização e trilhas de auditoria
-- Confiabilidade em produção: falhas esperadas, reprocessamento idempotente, evolução de schema e rollout sem surpresa
-- Observabilidade pensada como parte do sistema, com métricas, logs e correlação para troubleshooting real
+- Backend e APIs em ambientes corporativos críticos
+- Sistemas distribuídos e contratos entre serviços
+- Arquitetura orientada a eventos quando o domínio exige assincronismo
+- Mensageria, fluxos transacionais, idempotência, retry, DLQ e reprocessamento
+- Multitenancy, segurança aplicada, identidade, autorização e auditoria
+- Observabilidade com métricas, logs estruturados, tracing e correlação
+- Evolução segura em produção com migrations, versionamento, feature flags e rollback planejado
 
 ## Stack principal
 
@@ -20,81 +24,105 @@ Mais de 17 anos em tecnologia. Trabalho na fronteira entre desenho e código. De
 
 **Dados e migrações:** PostgreSQL · Liquibase · Redis
 
-**Integração e contratos:** REST/OpenAPI (Swagger) · mensageria (RabbitMQ, Kafka e padrões assíncronos) · integrações síncronas e assíncronas
+**Integração e contratos:** REST · OpenAPI/Swagger · RabbitMQ · Kafka · padrões assíncronos
 
-**Segurança e identidade:** Keycloak · OAuth2/OIDC · JWT · modelos de autorização alinhados ao domínio
+**Segurança e identidade:** Keycloak · OAuth2/OIDC · JWT · RBAC/ABAC
 
-**Execução e nuvem:** Docker · ambientes cloud e automação de deploy conforme o projeto
+**Execução e nuvem:** Docker · Kubernetes · Cloud · CI/CD · automação de deploy
 
-Quando o problema pede outra ferramenta, já trabalhei também com Node.js, Python, Ruby, C e frontend com Angular, Vue, React, Ionic e Flutter. Isso ajuda em integração e revisão de ponta a ponta, mas o foco do meu trabalho continua sendo backend e arquitetura aplicada.
+Também tenho experiência com Node.js, Python, Ruby, C e frontend com Angular, Vue, React, Ionic e Flutter. Isso apoia revisão ponta a ponta, mas meu foco principal continua sendo backend e arquitetura aplicada.
 
-## Projetos em destaque
+---
 
-### Plataforma B2B multilocatária (Fluxe)
+## Arquitetura de referência: Fluxe B2B Platform
 
-Plataforma completa de e-commerce B2B com multitenancy, arquitetura orientada a eventos e deploy automatizado.
+Plataforma B2B multitenant composta por backend de governança, pedidos, pagamentos e suite frontend integrada.
 
-- **[spring-saas-core](https://github.com/ricartefelipe/spring-saas-core)** — Control plane multi-tenant: gestão de tenants, RBAC/ABAC, feature flags, auditoria, JWT e outbox transacional com RabbitMQ. Java 21 / Spring Boot 3.
-- **[node-b2b-orders](https://github.com/ricartefelipe/node-b2b-orders)** — API de pedidos e inventário: NestJS 10, Prisma, PostgreSQL, Redis e RabbitMQ. Outbox pattern, worker assíncrono, idempotência, paginação keyset e circuit breaker.
-- **[py-payments-ledger](https://github.com/ricartefelipe/py-payments-ledger)** — Motor de pagamentos com ledger de dupla entrada: FastAPI, SQLAlchemy, Stripe, PostgreSQL e RabbitMQ. Multi-gateway, criptografia at-rest e reconciliação financeira.
-- **[fluxe-b2b-suite](https://github.com/ricartefelipe/fluxe-b2b-suite)** — Suite frontend B2B: Loja, Portal de Operações e Console de Administração. Angular 21 / Nx monorepo com integração aos três backends.
+### spring-saas-core
 
-### Outros projetos
+Control plane multitenant para SaaS B2B.
 
-### [archlens-ai](https://github.com/ricartefelipe/archlens-ai)
+Inclui gestão de tenants, RBAC/ABAC, feature flags, auditoria, JWT, outbox transacional com RabbitMQ, PostgreSQL, Liquibase, observabilidade com Micrometer/Prometheus e documentação OpenAPI.
 
-Plataforma multi-tenant para governança e diagnóstico arquitetural: ingestão de repositórios, análise estática de artefatos (código, contratos OpenAPI, migrations, Docker, pipelines), relatórios com evidências rastreáveis, registro de decisões (ADR), recuperação contextual em documentação (RAG), processamento assíncrono com RabbitMQ, OIDC com Keycloak, worker Python/FastAPI e interface Next.js. Backend Quarkus 3, PostgreSQL com pgvector, Liquibase, Redis, Docker Compose.
+Stack: Java 21 · Spring Boot 3 · PostgreSQL · Redis · RabbitMQ · Docker · OpenAPI
 
-### [comercial-cloud](https://github.com/ricartefelipe/comercial-cloud)
+### node-b2b-orders
 
-Plataforma SaaS multi-tenant para operação comercial de varejo: PDV web no balcão (busca de produtos, carrinho, formas de pagamento, finalização com baixa automática de estoque) e retaguarda administrativa (produtos, movimentação de estoque, clientes, vendas, abertura/fechamento de caixa, contas a receber e dashboard). Isolamento lógico por tenant com filtro HTTP e coluna `tenant_id`, trilha de auditoria, erros padronizados com correlation id, contratos OpenAPI e migrações Liquibase versionadas. Backend Quarkus 3 (Java 21), Hibernate Panache, PostgreSQL, arquitetura em camadas (domínio, aplicação, infraestrutura, REST). Frontend Next.js 14 com TypeScript, React Hook Form, Zod e TanStack Query. Monorepo com Docker Compose; preparado para JWT/OIDC (Keycloak).
+API de pedidos e inventário para cenário B2B.
 
-**Impacto:** Unifica balcão e retaguarda no mesmo produto multitenant, com fluxo operacional fechado (produto → estoque → caixa → venda → financeiro) e base repetível para onboarding de novos clientes sem reescrever o core.
+Inclui outbox pattern, worker assíncrono, idempotência, paginação keyset, Redis, RabbitMQ, PostgreSQL, ABAC e circuit breaker.
 
-**Competências:** Java · Quarkus · PostgreSQL · Docker · API REST
+Stack: Node.js · NestJS · Prisma · PostgreSQL · Redis · RabbitMQ
 
-### [cards-api](https://github.com/ricartefelipe/cards-api)
+### py-payments-ledger
 
-API REST (Quarkus) para criação de contas bancárias e emissão de cartões físicos e virtuais, com simulação local de processadora e CVV em memória.
+Motor de pagamentos com ledger de dupla entrada.
 
-### [assinaflow](https://github.com/ricartefelipe/assinaflow)
+Inclui multi-gateway, reconciliação financeira, criptografia at-rest, idempotência, outbox, PostgreSQL e RabbitMQ.
 
-Sistema de gestão de assinaturas voltado a um cenário de streaming, com foco em regras de negócio, operação e evolução segura.
+Stack: Python · FastAPI · SQLAlchemy · PostgreSQL · RabbitMQ
 
-### [order-service](https://github.com/ricartefelipe/order-service)
+### fluxe-b2b-suite
 
-Microserviço de pedidos com persistência em PostgreSQL, cálculo de totais e APIs voltadas a integração e consulta.
+Suite frontend B2B com loja, portal de operações e console administrativo.
 
-### [oficina-springboot-mvp](https://github.com/ricartefelipe/oficina-springboot-mvp)
+Integra os backends de governança, pedidos e pagamentos em uma experiência única para operação B2B.
 
-Sistema para gestão de serviços em oficinas mecânicas, com ênfase em fluxo operacional e feedback em tempo real para clientes.
+Stack: Angular · Nx · TypeScript · SSR · integração com APIs REST
 
-### [oficina-app](https://github.com/ricartefelipe/oficina-app)
+---
 
-Aplicação Spring Boot com Dockerfile, manifests Helm, CI de build/imagem e deploy em Kubernetes. Inclui autenticação via Lambda serverless (Python) e infraestrutura como código com Terraform.
+## Plataformas SaaS e arquitetura aplicada
 
-### [oficina-auth-lambda](https://github.com/ricartefelipe/oficina-auth-lambda)
+### archlens-ai
 
-Função serverless de autenticação (CPF + JWT) em Python, com deploy via SAM/Terraform na AWS Lambda e testes automatizados.
+Plataforma multitenant para governança e diagnóstico arquitetural.
 
-### [oficina-infra-kubernetes-](https://github.com/ricartefelipe/oficina-infra-kubernetes-)
+Inclui ingestão de repositórios, análise estática de código, contratos OpenAPI, migrations, Docker, pipelines, relatórios com evidências rastreáveis, ADRs, RAG, processamento assíncrono com RabbitMQ, Keycloak, worker Python/FastAPI e interface Next.js.
 
-Terraform do cluster Kubernetes: stack Kind para laboratório local e estrutura preparada para EKS em nuvem.
+Stack: Quarkus 3 · Java 21 · PostgreSQL/pgvector · Liquibase · Redis · RabbitMQ · Keycloak · Next.js · Python
 
-### [oficina-infra-database](https://github.com/ricartefelipe/oficina-infra-database)
+### comercial-cloud
 
-Terraform da base de dados na nuvem: VPC, subnets, RDS PostgreSQL, security groups e configurações de rede.
+Plataforma SaaS multitenant para PDV e retaguarda web.
+
+Inclui fluxo operacional de varejo com produtos, estoque, caixa, vendas, financeiro, dashboard, isolamento por tenant, trilha de auditoria, erros padronizados com correlation id, contratos OpenAPI e migrations Liquibase.
+
+Stack: Quarkus 3 · Java 21 · PostgreSQL · Next.js · Docker · Keycloak
+
+---
+
+## Cloud, infraestrutura e deploy
+
+### oficina-app
+
+Aplicação Spring Boot com Dockerfile, manifests Helm, CI de build/imagem e deploy em Kubernetes.
+
+### oficina-auth-lambda
+
+Função serverless de autenticação com CPF e JWT usando Python, AWS Lambda, SAM/Terraform, testes e CI.
+
+### oficina-infra-kubernetes
+
+Infraestrutura como código para cluster Kubernetes, com laboratório local em Kind e estrutura preparada para EKS.
+
+### oficina-infra-database
+
+Infraestrutura como código para banco de dados em nuvem, incluindo VPC, subnets, RDS PostgreSQL e security groups.
+
+---
 
 ## Como eu costumo trabalhar
 
 - Modelo de domínio e contratos antes de espalhar complexidade entre serviços
-- Caos de integração tratado com mensageria, limites claros e operações repetíveis, incluindo retry, DLQ e reprocessamento quando faz sentido
-- Mudanças em produção planejadas: migrações, feature flags quando aplicável e rollback pensado de verdade
-- Observabilidade e segurança como requisito, não como capítulo opcional no fim do projeto
-- Prefiro sistemas previsíveis e operáveis a soluções bonitas que ninguém consegue depurar às três da manhã
+- Integrações tratadas com limites claros, rastreabilidade e operações repetíveis
+- Mensageria aplicada quando resolve problema real de acoplamento, resiliência ou fluxo assíncrono
+- Mudanças em produção planejadas com migrations, versionamento, feature flags e rollback
+- Observabilidade e segurança como requisitos estruturais do sistema
+- Preferência por sistemas previsíveis, operáveis e fáceis de diagnosticar
 
 ## Contato
 
-- [LinkedIn](https://www.linkedin.com/in/felipe-ricarte-magalhaes/)
-- [GitHub](https://github.com/ricartefelipe)
-- Email: [felipericartem@gmail.com](mailto:felipericartem@gmail.com)
+- LinkedIn: https://www.linkedin.com/in/felipe-ricarte-magalhaes/
+- GitHub: https://github.com/ricartefelipe
+- Email: felipericartem@gmail.com
