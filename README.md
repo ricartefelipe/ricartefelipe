@@ -107,7 +107,6 @@ Também tenho experiência com frontend e mobile híbrido em contextos de integr
 |---|---|---|
 | **oficina-infra-kubernetes** | Infraestrutura como código para cluster Kubernetes, com laboratório local em Kind e estrutura preparada para EKS. | Kubernetes · Kind · EKS · Terraform |
 | **oficina-infra-database** | Infraestrutura como código para banco de dados em nuvem, incluindo VPC, subnets, RDS PostgreSQL e security groups. | AWS · RDS · PostgreSQL · Terraform |
-| **ricartefelipe.github.io** | Página pessoal e apoio ao portfólio público. | GitHub Pages · documentação |
 
 ---
 
