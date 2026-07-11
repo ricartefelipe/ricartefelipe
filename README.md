@@ -10,6 +10,21 @@ Minha base principal é **Java e Kotlin**, com forte atuação em **Spring Boot,
 
 ---
 
+## Repositórios em destaque
+
+Estes são os principais projetos públicos que representam meu foco atual em arquitetura aplicada, backend, sistemas distribuídos, segurança, mensageria, cloud e confiabilidade operacional.
+
+| Projeto | Foco principal |
+|---|---|
+| **archlens-ai** | IA aplicada à engenharia de software, análise arquitetural, RAG, processamento assíncrono e governança técnica |
+| **spring-saas-core** | SaaS B2B multitenant, RBAC/ABAC, feature flags, auditoria, outbox e observabilidade |
+| **assinaflow** | Gestão de assinaturas, renovação automática, concorrência, idempotência, RabbitMQ, Redis e Testcontainers |
+| **cards-api** | API financeira de contas e cartões, Keycloak, OAuth2/OIDC, JWT, webhooks e segurança aplicada |
+| **py-payments-ledger** | Motor de pagamentos com ledger de dupla entrada, reconciliação financeira, idempotência e outbox |
+| **node-b2b-orders** | Pedidos e inventário B2B, outbox, worker assíncrono, Redis, RabbitMQ, ABAC e circuit breaker |
+
+---
+
 ## Atuação principal
 
 - Backend Java/Kotlin em ambientes corporativos críticos
@@ -56,8 +71,8 @@ Também tenho experiência com frontend e mobile híbrido em contextos de integr
 | Projeto | Descrição | Stack |
 |---|---|---|
 | **archlens-ai** | Plataforma multitenant para governança e diagnóstico arquitetural, com ingestão de repositórios, análise estática de código, contratos OpenAPI, ADRs, RAG, processamento assíncrono e relatórios com evidências rastreáveis. | Quarkus 3 · Java 21 · PostgreSQL/pgvector · Redis · RabbitMQ · Keycloak · Next.js · Python |
-| **comercial-cloud** | Plataforma SaaS multitenant para PDV e retaguarda web, com produtos, estoque, caixa, vendas, financeiro, dashboard, isolamento por tenant, auditoria, OpenAPI e migrations. | Quarkus 3 · Java 21 · PostgreSQL · Next.js · Docker · Keycloak |
 | **spring-saas-core** | Serviço central de governança multitenant para SaaS B2B, com tenants, RBAC/ABAC, feature flags, auditoria, JWT, outbox transacional, observabilidade e documentação OpenAPI. | Java 21 · Spring Boot 3 · PostgreSQL · Redis · RabbitMQ · Docker |
+| **comercial-cloud** | Plataforma SaaS multitenant para PDV e retaguarda web, com produtos, estoque, caixa, vendas, financeiro, dashboard, isolamento por tenant, auditoria, OpenAPI e migrations. | Quarkus 3 · Java 21 · PostgreSQL · Next.js · Docker · Keycloak |
 
 ---
 
