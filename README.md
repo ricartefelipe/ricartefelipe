@@ -2,6 +2,8 @@
 
 **Hands-on Software Architect · Senior Backend Engineer**
 
+**Portfólio ao vivo:** [ricartefelipe.github.io](https://ricartefelipe.github.io/) · demo [VueMind](https://ricartefelipe.github.io/vuemind/) (`demo@vuemind.dev` / `demo123`)
+
 Projeto e implemento backends, plataformas e integrações que precisam operar em produção com segurança, rastreabilidade, confiabilidade e capacidade de evolução.
 
 Tenho mais de 17 anos de experiência em tecnologia, atuando entre arquitetura, desenvolvimento e sustentação de sistemas corporativos, financeiros, bancários e distribuídos. Minha atuação combina desenho técnico, implementação, integração entre sistemas, mensageria, observabilidade, segurança aplicada e apoio técnico a times em ambientes críticos.
