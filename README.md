@@ -1,14 +1,21 @@
 # Felipe Ricarte Magalhães
 
-**Hands-on Software Architect · Senior Backend Engineer**
+**Hands-on Software Architect · Senior Backend Engineer** | Java · Kotlin · Spring Boot · Quarkus
 
-**Portfólio ao vivo:** [ricartefelipe.github.io](https://ricartefelipe.github.io/) · [VueMind](https://ricartefelipe.github.io/vuemind/) (`demo@vuemind.dev` / `demo123`) · pilotos [ComercialCloud](https://56.125.12.61/login) · [Fluxe](https://54.94.52.89/) · [ArchLens](http://54.207.94.224/)
+Arquiteto de software e engenheiro backend sênior. Projetos em produção com segurança, rastreabilidade, confiabilidade e capacidade de evolução — bancos, fintechs e sistemas de alto volume.
 
-Projeto e implemento backends, plataformas e integrações que precisam operar em produção com segurança, rastreabilidade, confiabilidade e capacidade de evolução.
+### Contato e perfil profissional
 
-Tenho mais de 17 anos de experiência em tecnologia, atuando entre arquitetura, desenvolvimento e sustentação de sistemas corporativos, financeiros, bancários e distribuídos. Minha atuação combina desenho técnico, implementação, integração entre sistemas, mensageria, observabilidade, segurança aplicada e apoio técnico a times em ambientes críticos.
+- LinkedIn: https://www.linkedin.com/in/felipe-ricarte-magalhaes/
+- GitHub: https://github.com/ricartefelipe
+- Site: https://codigodeproducao.com.br/
+- Portfólio: https://ricartefelipe.github.io/
 
-Minha base principal é **Java e Kotlin**, com forte atuação em **Spring Boot, Quarkus, APIs, microsserviços, BFFs, mensageria, bancos relacionais/NoSQL, cloud, containers, segurança, testes e observabilidade**.
+**Demos:** [VueMind](https://ricartefelipe.github.io/vuemind/) (`demo@vuemind.dev` / `demo123`) · [ComercialCloud](https://56.125.12.61/login) · [Fluxe](https://54.94.52.89/) · [ArchLens](http://54.207.94.224/)
+
+Tenho mais de 17 anos em tecnologia, entre arquitetura, desenvolvimento e sustentação de sistemas corporativos, financeiros, bancários e distribuídos. Atuação hands-on: desenho técnico, implementação, integrações, mensageria, observabilidade, segurança aplicada e apoio a times em ambientes críticos.
+
+Base principal: **Java e Kotlin**, com **Spring Boot, Quarkus, APIs, microsserviços, BFFs, mensageria, SQL/NoSQL, cloud, containers, segurança, testes e observabilidade**.
 
 ---
 
@@ -152,5 +159,6 @@ Também tenho experiência com frontend e mobile híbrido em contextos de integr
 
 ## Contato
 
-- LinkedIn: https://www.linkedin.com/in/felipe-ricarte-magalhaes/
+- LinkedIn (perfil profissional): https://www.linkedin.com/in/felipe-ricarte-magalhaes/
 - GitHub: https://github.com/ricartefelipe
+- Site: https://codigodeproducao.com.br/
