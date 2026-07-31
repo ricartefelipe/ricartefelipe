@@ -1,6 +1,17 @@
 # Felipe Ricarte Magalhães
 
-**Hands-on Software Architect · Senior Backend Engineer**
+**Hands-on Software Architect · Senior Backend Engineer** | Java · Kotlin · Spring Boot · Quarkus
+
+Arquiteto de software e engenheiro backend sênior. Projetos em produção com segurança, rastreabilidade, confiabilidade e capacidade de evolução — bancos, fintechs e sistemas de alto volume.
+
+### Contato e perfil profissional
+
+- LinkedIn: https://www.linkedin.com/in/felipe-ricarte-magalhaes/
+- GitHub: https://github.com/ricartefelipe
+- Site: https://codigodeproducao.com.br/
+- Portfólio: https://ricartefelipe.github.io/
+
+**Demos:** [VueMind](https://ricartefelipe.github.io/vuemind/) (`demo@vuemind.dev` / `demo123`) · [ComercialCloud](https://56.125.12.61/login) · [Fluxe](https://54.94.52.89/) · [ArchLens](http://54.207.94.224/)
 
 Projeto e implemento backends, plataformas e integrações que precisam operar em produção com segurança, rastreabilidade, confiabilidade e capacidade de evolução.
 
@@ -150,5 +161,6 @@ Também tenho experiência com frontend e mobile híbrido em contextos de integr
 
 ## Contato
 
-- LinkedIn: https://www.linkedin.com/in/felipe-ricarte-magalhaes/
+- LinkedIn (perfil profissional): https://www.linkedin.com/in/felipe-ricarte-magalhaes/
 - GitHub: https://github.com/ricartefelipe
+- Site: https://codigodeproducao.com.br/
