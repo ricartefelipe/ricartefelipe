@@ -11,8 +11,6 @@ Arquiteto de software e engenheiro backend sênior. Projetos em produção com s
 - Site: https://codigodeproducao.com.br/
 - Portfólio: https://ricartefelipe.github.io/
 
-**Demos:** [VueMind](https://ricartefelipe.github.io/vuemind/) (`demo@vuemind.dev` / `demo123`) · [ComercialCloud](https://56.125.12.61/login) · [Fluxe](https://54.94.52.89/) · [ArchLens](http://54.207.94.224/)
-
 Projeto e implemento backends, plataformas e integrações que precisam operar em produção com segurança, rastreabilidade, confiabilidade e capacidade de evolução.
 
 Tenho mais de 17 anos de experiência em tecnologia, atuando entre arquitetura, desenvolvimento e sustentação de sistemas corporativos, financeiros, bancários e distribuídos. Minha atuação combina desenho técnico, implementação, integração entre sistemas, mensageria, observabilidade, segurança aplicada e apoio técnico a times em ambientes críticos.
