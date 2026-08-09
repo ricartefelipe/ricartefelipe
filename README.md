@@ -4,7 +4,7 @@
 
 Arquiteto de software e engenheiro backend sênior. Projetos em produção com segurança, rastreabilidade, confiabilidade e capacidade de evolução — bancos, fintechs e sistemas de alto volume.
 
-### Contato e perfil profissional
+## Contato e perfil profissional
 
 - LinkedIn: https://www.linkedin.com/in/felipe-ricarte-magalhaes/
 - GitHub: https://github.com/ricartefelipe
