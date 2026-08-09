@@ -7,7 +7,7 @@ Projeto e implemento backends e plataformas que precisam operar em produção co
 
 Mais de 17 anos entre arquitetura, desenvolvimento e sustentação de sistemas corporativos e financeiros. Atuação hands-on: desenho técnico, código, integrações, mensageria, observabilidade e apoio a times em ambientes críticos.
 
-### Contato
+## Contato
 
 - LinkedIn: [felipe-ricarte-magalhaes](https://www.linkedin.com/in/felipe-ricarte-magalhaes/)
 - Site: [codigodeproducao.com.br](https://codigodeproducao.com.br/)
