@@ -5,79 +5,49 @@ Java · Kotlin · Spring Boot · Quarkus · Distributed Systems · Cloud · Even
 
 Arquiteto de software e engenheiro backend com mais de 18 anos de experiência em sistemas corporativos, financeiros, bancários e distribuídos.
 
-Atuo de forma hands-on, participando da arquitetura, implementação, revisão de código, integrações, troubleshooting, observabilidade e evolução de sistemas em produção. Meu foco principal está em backend, arquitetura distribuída, mensageria, segurança, cloud e confiabilidade operacional.
+Atuo de forma hands-on, da definição arquitetural à implementação e sustentação: desenho técnico, código, integrações, mensageria, segurança, observabilidade, troubleshooting e evolução de sistemas em produção.
 
 ## Projetos em destaque
 
 | Projeto | Foco |
 | --- | --- |
-| [**ArchLens AI**](https://github.com/ricartefelipe/archlens-ai) | Análise arquitetural, RAG, análise estática, evidências rastreáveis, Quarkus, PostgreSQL/pgvector, Redis e Next.js |
-| [**Spring SaaS Core**](https://github.com/ricartefelipe/spring-saas-core) | Plataforma SaaS B2B multi-tenant com RBAC/ABAC, feature flags, auditoria, outbox, Redis e RabbitMQ |
-| [**GruaHub**](https://github.com/ricartefelipe/gruahub) | Plataforma B2B multi-tenant para gestão de máquinas conectadas, telemetria MQTT, pagamentos, estoque e operação de campo |
-| [**Cards API**](https://github.com/ricartefelipe/cards-api) | API financeira com Quarkus, Keycloak, OAuth2/OIDC, cartões físicos e virtuais, webhooks e segurança aplicada |
+| [**ArchLens AI**](https://github.com/ricartefelipe/archlens-ai) | Plataforma para diagnóstico arquitetural e análise de aplicações, combinando análise estática, RAG, evidências rastreáveis e processamento de artefatos técnicos |
+| [**Spring SaaS Core**](https://github.com/ricartefelipe/spring-saas-core) | Control plane para SaaS B2B multi-tenant com RBAC/ABAC, feature flags, auditoria, outbox, Redis e RabbitMQ |
+| [**GruaHub**](https://github.com/ricartefelipe/gruahub) | Plataforma B2B para operação de máquinas conectadas, com telemetria MQTT, pagamentos, estoque, visitas de campo, portal web e aplicação móvel |
+| [**Cards API**](https://github.com/ricartefelipe/cards-api) | API financeira com Quarkus, Keycloak/OIDC, cartões físicos e virtuais, webhooks autenticados e tratamento de dados sensíveis |
 | [**AssinaFlow**](https://github.com/ricartefelipe/assinaflow) | Gestão de assinaturas com concorrência, idempotência, outbox, RabbitMQ, Redis e PostgreSQL |
-| [**Visão de Arquitetura — Conta de Pagamentos**](https://github.com/ricartefelipe/visao-arquitetura-conta-pagamentos) | Enterprise Architecture com TOGAF, DDD, AS-IS/TO-BE, ADRs e roadmap de modernização |
+| [**Visão de Arquitetura — Conta de Pagamentos**](https://github.com/ricartefelipe/visao-arquitetura-conta-pagamentos) | Estudo de Enterprise Architecture com TOGAF, DDD, AS-IS/TO-BE, ADRs e roadmap de modernização |
 
 ## Atuação técnica
 
-- Arquitetura hands-on: desenho, implementação, revisão e evolução técnica
-- Backend com Java e Kotlin em sistemas corporativos e críticos
+- Arquitetura hands-on, com participação direta em desenho, implementação, revisão e evolução técnica
+- Backend Java/Kotlin em sistemas corporativos, financeiros e de alta criticidade
 - APIs REST, OpenAPI, integrações corporativas, BFFs e gRPC
-- DDD pragmático, arquitetura hexagonal e modularização
+- DDD pragmático, arquitetura hexagonal, modularização e definição de responsabilidades
 - Sistemas distribuídos, microsserviços e comunicação assíncrona
 - Kafka, RabbitMQ, SQS, Pub/Sub, outbox, idempotência, retry, DLQ e reprocessamento
-- PostgreSQL, SQL Server, Oracle, MongoDB, Redis, Liquibase e Flyway
+- PostgreSQL, Oracle, SQL Server, MongoDB, Redis, Liquibase e Flyway
 - Keycloak, OAuth2/OIDC, JWT, RBAC/ABAC, auditoria e segurança de APIs
-- Docker, Kubernetes, OpenShift, AWS, Azure e GCP
-- OpenTelemetry, Micrometer, Prometheus, Grafana, ELK, Datadog e rastreabilidade ponta a ponta
-- CI/CD, infraestrutura como código, migrations versionadas e estratégias de rollback
+- Docker, Kubernetes, OpenShift, AWS, Azure, GCP e Terraform
+- OpenTelemetry, Micrometer, Prometheus, Grafana, ELK, Datadog e Jaeger
+- CI/CD, migrations versionadas, observabilidade e estratégias de rollback
 
 ## Outros projetos
 
-### Plataformas B2B e sistemas distribuídos
+**B2B e sistemas distribuídos**  
+[Fluxe B2B Suite](https://github.com/ricartefelipe/fluxe-b2b-suite) · [Node B2B Orders](https://github.com/ricartefelipe/node-b2b-orders) · [Py Payments Ledger](https://github.com/ricartefelipe/py-payments-ledger) · [Comercial Cloud](https://github.com/ricartefelipe/comercial-cloud) · [Order Service](https://github.com/ricartefelipe/order-service)
 
-- [**Fluxe B2B Suite**](https://github.com/ricartefelipe/fluxe-b2b-suite) — suíte Angular/Nx integrada a serviços Spring, Node e Python
-- [**Node B2B Orders**](https://github.com/ricartefelipe/node-b2b-orders) — pedidos e inventário com NestJS, PostgreSQL, Redis, RabbitMQ e outbox
-- [**Py Payments Ledger**](https://github.com/ricartefelipe/py-payments-ledger) — pagamentos com FastAPI, ledger de dupla entrada, idempotência e mensageria
-- [**Comercial Cloud**](https://github.com/ricartefelipe/comercial-cloud) — SaaS multi-tenant para PDV e retaguarda com Quarkus e Next.js
-- [**Order Service**](https://github.com/ricartefelipe/order-service) — processamento de pedidos com Spring Boot, PostgreSQL, Liquibase e idempotência
+**Confiabilidade e produtos**  
+[HookGuard](https://github.com/ricartefelipe/hookguard) · [FileNorm](https://github.com/ricartefelipe/filenorm) · [WarRoom Match](https://github.com/ricartefelipe/warroom-match)
 
-### Confiabilidade e produtos
+**Arquitetura e desafios**  
+[ArchLens](https://github.com/ricartefelipe/archlens) · [Estapar Backend Challenge](https://github.com/ricartefelipe/estapar-backend-challenge) · [CoopVote API](https://github.com/ricartefelipe/coopvote-api) · [CoopVote App](https://github.com/ricartefelipe/coopvote-app)
 
-- [**HookGuard**](https://github.com/ricartefelipe/hookguard) — entrega confiável de webhooks com retry, DLQ e replay
-- [**FileNorm**](https://github.com/ricartefelipe/filenorm) — normalização de OFX, CNAB, CSV e extratos financeiros
-- [**WarRoom Match**](https://github.com/ricartefelipe/warroom-match) — marketplace de plantão técnico para incidentes e demandas críticas
+**FIAP — Software Architecture**  
+[Oficina App](https://github.com/ricartefelipe/oficina-app) · [OS Service](https://github.com/ricartefelipe/oficina-os-service) · [Billing Service](https://github.com/ricartefelipe/oficina-billing-service) · [Execution Service](https://github.com/ricartefelipe/oficina-execution-service) · [Auth Lambda](https://github.com/ricartefelipe/oficina-auth-lambda) · [Infra Database](https://github.com/ricartefelipe/oficina-infra-database) · [Infra Kubernetes](https://github.com/ricartefelipe/oficina-infra-kubernetes) · [FIAP X API](https://github.com/ricartefelipe/fiapx-api-service) · [FIAP X Processor](https://github.com/ricartefelipe/fiapx-processor-service)
 
-### Arquitetura e desafios
-
-- [**ArchLens**](https://github.com/ricartefelipe/archlens) — diagnóstico arquitetural e modernização de aplicações Java legadas
-- [**Estapar Backend Challenge**](https://github.com/ricartefelipe/estapar-backend-challenge) — Kotlin + Spring Boot com concorrência, idempotência, eventos e regras de estacionamento
-- [**CoopVote API**](https://github.com/ricartefelipe/coopvote-api) — votação cooperativa com Spring Boot, PostgreSQL e sessões temporizadas
-- [**CoopVote App**](https://github.com/ricartefelipe/coopvote-app) — cliente Flutter server-driven integrado à CoopVote API
-
-### FIAP — Software Architecture
-
-O conjunto `oficina-*` acompanha a evolução de um sistema de oficina mecânica desde o monólito até microsserviços, mensageria, Kubernetes, Terraform, serverless, observabilidade e Saga Pattern.
-
-- [**oficina-app**](https://github.com/ricartefelipe/oficina-app)
-- [**oficina-os-service**](https://github.com/ricartefelipe/oficina-os-service)
-- [**oficina-billing-service**](https://github.com/ricartefelipe/oficina-billing-service)
-- [**oficina-execution-service**](https://github.com/ricartefelipe/oficina-execution-service)
-- [**oficina-auth-lambda**](https://github.com/ricartefelipe/oficina-auth-lambda)
-- [**oficina-infra-database**](https://github.com/ricartefelipe/oficina-infra-database)
-- [**oficina-infra-kubernetes**](https://github.com/ricartefelipe/oficina-infra-kubernetes)
-- [**FIAP X API Service**](https://github.com/ricartefelipe/fiapx-api-service)
-- [**FIAP X Processor Service**](https://github.com/ricartefelipe/fiapx-processor-service)
-
-### Mind Wallet
-
-Uma mesma carteira digital explorada em diferentes stacks, mantendo o domínio e o contrato de API como referência comum.
-
-- [**VueMind**](https://github.com/ricartefelipe/vuemind) — Vue 3 + TypeScript
-- [**ReactMind**](https://github.com/ricartefelipe/reactmind) — React 19 + TypeScript
-- [**AngularMind**](https://github.com/ricartefelipe/angularmind) — Angular 19 + TypeScript
-- [**SpringMind**](https://github.com/ricartefelipe/springmind) — Spring Boot + PostgreSQL
-- [**VueMind API**](https://github.com/ricartefelipe/vuemind-api) — backend didático Spring Boot
+**Mind Wallet — mesmo domínio em diferentes stacks**  
+[VueMind](https://github.com/ricartefelipe/vuemind) · [ReactMind](https://github.com/ricartefelipe/reactmind) · [AngularMind](https://github.com/ricartefelipe/angularmind) · [SpringMind](https://github.com/ricartefelipe/springmind) · [VueMind API](https://github.com/ricartefelipe/vuemind-api)
 
 ## Stack principal
 
@@ -101,11 +71,11 @@ OpenTelemetry · Micrometer · Prometheus · Grafana · ELK · Datadog · Jaeger
 
 ## Como trabalho
 
-Prefiro começar pelo domínio, pelos fluxos de negócio, integrações e riscos antes de escolher tecnologia. Mensageria, cache, microsserviços ou serverless entram quando resolvem um problema concreto.
+Começo pelo domínio, pelos fluxos de negócio, integrações e riscos antes de escolher tecnologia. Mensageria, cache, microsserviços ou serverless entram quando resolvem um problema concreto.
 
-Em sistemas distribuídos, trato idempotência, retry, DLQ, reprocessamento, observabilidade e rastreabilidade como parte da arquitetura, não como detalhes posteriores.
+Em sistemas distribuídos, idempotência, retry, DLQ, reprocessamento, observabilidade e rastreabilidade fazem parte do desenho desde o início.
 
-Meu objetivo é construir soluções que funcionem bem no código e continuem compreensíveis, operáveis e evolutivas quando chegam à produção.
+Busco soluções que sejam claras no código, previsíveis em produção e sustentáveis para quem precisa evoluí-las depois.
 
 ## Contato
 
