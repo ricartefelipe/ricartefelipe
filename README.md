@@ -1,165 +1,114 @@
 # Felipe Ricarte Magalhães
 
-**Hands-on Software Architect · Senior Backend Engineer** | Java · Kotlin · Spring Boot · Quarkus
+**Software Architect (Hands-on) · Senior Backend Engineer**  
+Java · Kotlin · Spring Boot · Quarkus · Distributed Systems · Cloud · Event-Driven Architecture
 
-Arquiteto de software hands-on e engenheiro backend sênior, com mais de 17 anos de experiência em sistemas corporativos, financeiros, bancários e distribuídos.
+Arquiteto de software e engenheiro backend com mais de 18 anos de experiência em sistemas corporativos, financeiros, bancários e distribuídos.
 
-## Contato e perfil profissional
+Atuo de forma hands-on, participando da arquitetura, implementação, revisão de código, integrações, troubleshooting, observabilidade e evolução de sistemas em produção. Meu foco principal está em backend, arquitetura distribuída, mensageria, segurança, cloud e confiabilidade operacional.
 
-- LinkedIn: [felipe-ricarte-magalhaes](https://www.linkedin.com/in/felipe-ricarte-magalhaes/)
-- GitHub: [github.com/ricartefelipe](https://github.com/ricartefelipe)
-- Site: [codigodeproducao.com.br](https://codigodeproducao.com.br/)
-- Portfólio: [ricartefelipe.github.io](https://ricartefelipe.github.io/)
+## Projetos em destaque
 
-Projeto e implemento backends, plataformas e integrações que precisam operar em produção com segurança, rastreabilidade, confiabilidade e capacidade de evolução.
-
-Minha atuação combina definição arquitetural, desenho técnico, implementação, integração entre sistemas, mensageria, observabilidade, segurança aplicada, troubleshooting e apoio técnico a times em ambientes críticos.
-
-Minha base principal é **Java e Kotlin**, com forte atuação em **Spring Boot, Quarkus, APIs, microsserviços, BFFs, mensageria, bancos relacionais e NoSQL, cloud, containers, segurança, testes e observabilidade**.
-
----
-
-## Repositórios em destaque
-
-Estes são os principais projetos públicos que representam meu foco atual em arquitetura aplicada, backend, sistemas distribuídos, segurança, mensageria, cloud e confiabilidade operacional.
-
-| Projeto | Foco principal |
+| Projeto | Foco |
 | --- | --- |
-| [**archlens-ai**](https://github.com/ricartefelipe/archlens-ai) | IA aplicada à engenharia de software, análise arquitetural, RAG, processamento assíncrono e governança técnica |
-| [**spring-saas-core**](https://github.com/ricartefelipe/spring-saas-core) | SaaS B2B multitenant, RBAC/ABAC, feature flags, auditoria, outbox e observabilidade |
-| [**assinaflow**](https://github.com/ricartefelipe/assinaflow) | Gestão de assinaturas, renovação automática, concorrência, idempotência, RabbitMQ, Redis e Testcontainers |
-| [**cards-api**](https://github.com/ricartefelipe/cards-api) | API financeira de contas e cartões, Keycloak, OAuth2/OIDC, JWT, webhooks e segurança aplicada |
-| [**py-payments-ledger**](https://github.com/ricartefelipe/py-payments-ledger) | Motor de pagamentos com ledger de dupla entrada, reconciliação financeira, idempotência e outbox |
-| [**node-b2b-orders**](https://github.com/ricartefelipe/node-b2b-orders) | Pedidos e inventário B2B, outbox, worker assíncrono, Redis, RabbitMQ, ABAC e circuit breaker |
+| [**ArchLens AI**](https://github.com/ricartefelipe/archlens-ai) | Análise arquitetural, RAG, análise estática, evidências rastreáveis, Quarkus, PostgreSQL/pgvector, Redis e Next.js |
+| [**Spring SaaS Core**](https://github.com/ricartefelipe/spring-saas-core) | Plataforma SaaS B2B multi-tenant com RBAC/ABAC, feature flags, auditoria, outbox, Redis e RabbitMQ |
+| [**GruaHub**](https://github.com/ricartefelipe/gruahub) | Plataforma B2B multi-tenant para gestão de máquinas conectadas, telemetria MQTT, pagamentos, estoque e operação de campo |
+| [**Cards API**](https://github.com/ricartefelipe/cards-api) | API financeira com Quarkus, Keycloak, OAuth2/OIDC, cartões físicos e virtuais, webhooks e segurança aplicada |
+| [**AssinaFlow**](https://github.com/ricartefelipe/assinaflow) | Gestão de assinaturas com concorrência, idempotência, outbox, RabbitMQ, Redis e PostgreSQL |
+| [**Visão de Arquitetura — Conta de Pagamentos**](https://github.com/ricartefelipe/visao-arquitetura-conta-pagamentos) | Enterprise Architecture com TOGAF, DDD, AS-IS/TO-BE, ADRs e roadmap de modernização |
 
----
+## Atuação técnica
 
-## Atuação principal
-
-- Backend Java/Kotlin em ambientes corporativos e sistemas críticos
-- Arquitetura hands-on, com participação em desenho, código, revisão e evolução técnica
-- APIs REST, contratos OpenAPI, integrações corporativas e BFFs
-- DDD pragmático, modularização e definição de limites entre responsabilidades
+- Arquitetura hands-on: desenho, implementação, revisão e evolução técnica
+- Backend com Java e Kotlin em sistemas corporativos e críticos
+- APIs REST, OpenAPI, integrações corporativas, BFFs e gRPC
+- DDD pragmático, arquitetura hexagonal e modularização
 - Sistemas distribuídos, microsserviços e comunicação assíncrona
-- Mensageria, eventos, outbox, idempotência, retry, DLQ e reprocessamento
-- SQL, NoSQL, cache, read models e estratégias de persistência
-- Segurança aplicada, identidade, autorização, auditoria e rastreabilidade
-- Observabilidade com logs estruturados, métricas, tracing e correlação
-- Evolução segura em produção com migrations, versionamento, feature flags e rollback
-- Apoio técnico a times, troubleshooting, revisão de soluções e decisões arquiteturais
+- Kafka, RabbitMQ, SQS, Pub/Sub, outbox, idempotência, retry, DLQ e reprocessamento
+- PostgreSQL, SQL Server, Oracle, MongoDB, Redis, Liquibase e Flyway
+- Keycloak, OAuth2/OIDC, JWT, RBAC/ABAC, auditoria e segurança de APIs
+- Docker, Kubernetes, OpenShift, AWS, Azure e GCP
+- OpenTelemetry, Micrometer, Prometheus, Grafana, ELK, Datadog e rastreabilidade ponta a ponta
+- CI/CD, infraestrutura como código, migrations versionadas e estratégias de rollback
 
----
+## Outros projetos
+
+### Plataformas B2B e sistemas distribuídos
+
+- [**Fluxe B2B Suite**](https://github.com/ricartefelipe/fluxe-b2b-suite) — suíte Angular/Nx integrada a serviços Spring, Node e Python
+- [**Node B2B Orders**](https://github.com/ricartefelipe/node-b2b-orders) — pedidos e inventário com NestJS, PostgreSQL, Redis, RabbitMQ e outbox
+- [**Py Payments Ledger**](https://github.com/ricartefelipe/py-payments-ledger) — pagamentos com FastAPI, ledger de dupla entrada, idempotência e mensageria
+- [**Comercial Cloud**](https://github.com/ricartefelipe/comercial-cloud) — SaaS multi-tenant para PDV e retaguarda com Quarkus e Next.js
+- [**Order Service**](https://github.com/ricartefelipe/order-service) — processamento de pedidos com Spring Boot, PostgreSQL, Liquibase e idempotência
+
+### Confiabilidade e produtos
+
+- [**HookGuard**](https://github.com/ricartefelipe/hookguard) — entrega confiável de webhooks com retry, DLQ e replay
+- [**FileNorm**](https://github.com/ricartefelipe/filenorm) — normalização de OFX, CNAB, CSV e extratos financeiros
+- [**WarRoom Match**](https://github.com/ricartefelipe/warroom-match) — marketplace de plantão técnico para incidentes e demandas críticas
+
+### Arquitetura e desafios
+
+- [**ArchLens**](https://github.com/ricartefelipe/archlens) — diagnóstico arquitetural e modernização de aplicações Java legadas
+- [**Estapar Backend Challenge**](https://github.com/ricartefelipe/estapar-backend-challenge) — Kotlin + Spring Boot com concorrência, idempotência, eventos e regras de estacionamento
+- [**CoopVote API**](https://github.com/ricartefelipe/coopvote-api) — votação cooperativa com Spring Boot, PostgreSQL e sessões temporizadas
+- [**CoopVote App**](https://github.com/ricartefelipe/coopvote-app) — cliente Flutter server-driven integrado à CoopVote API
+
+### FIAP — Software Architecture
+
+O conjunto `oficina-*` acompanha a evolução de um sistema de oficina mecânica desde o monólito até microsserviços, mensageria, Kubernetes, Terraform, serverless, observabilidade e Saga Pattern.
+
+- [**oficina-app**](https://github.com/ricartefelipe/oficina-app)
+- [**oficina-os-service**](https://github.com/ricartefelipe/oficina-os-service)
+- [**oficina-billing-service**](https://github.com/ricartefelipe/oficina-billing-service)
+- [**oficina-execution-service**](https://github.com/ricartefelipe/oficina-execution-service)
+- [**oficina-auth-lambda**](https://github.com/ricartefelipe/oficina-auth-lambda)
+- [**oficina-infra-database**](https://github.com/ricartefelipe/oficina-infra-database)
+- [**oficina-infra-kubernetes**](https://github.com/ricartefelipe/oficina-infra-kubernetes-)
+- [**FIAP X API Service**](https://github.com/ricartefelipe/fiapx-api-service)
+- [**FIAP X Processor Service**](https://github.com/ricartefelipe/fiapx-processor-service)
+
+### Mind Wallet
+
+Uma mesma carteira digital explorada em diferentes stacks, mantendo o domínio e o contrato de API como referência comum.
+
+- [**VueMind**](https://github.com/ricartefelipe/vuemind) — Vue 3 + TypeScript
+- [**ReactMind**](https://github.com/ricartefelipe/reactmind) — React 19 + TypeScript
+- [**AngularMind**](https://github.com/ricartefelipe/angularmind) — Angular 19 + TypeScript
+- [**SpringMind**](https://github.com/ricartefelipe/springmind) — Spring Boot + PostgreSQL
+- [**VueMind API**](https://github.com/ricartefelipe/vuemind-api) — backend didático Spring Boot
 
 ## Stack principal
 
-**Linguagens e frameworks**  
-Java · Kotlin · Spring Boot · Quarkus · Node.js · Python
+**Backend**  
+Java · Kotlin · Spring Boot · Quarkus · Node.js · Python · REST · gRPC
 
-**Dados, cache e migrações**  
-PostgreSQL · SQL Server · MariaDB · MongoDB · Redis · Liquibase · Flyway
+**Dados e cache**  
+PostgreSQL · Oracle · SQL Server · MariaDB · MongoDB · Redis · Liquibase · Flyway
 
-**Integração e mensageria**  
-REST · OpenAPI/Swagger · Kafka · RabbitMQ · AWS SQS · GCP Pub/Sub · eventos · outbox · idempotência
+**Mensageria e integração**  
+Kafka · RabbitMQ · AWS SQS · EventBridge · GCP Pub/Sub · IBM MQ · OpenAPI
 
-**Segurança e identidade**  
-Keycloak · OAuth2/OIDC · JWT · RBAC/ABAC · auditoria · segurança aplicada a APIs
+**Segurança**  
+Keycloak · OAuth2 · OpenID Connect · JWT · RBAC · ABAC
 
-**Cloud, containers e execução**  
-Docker · Kubernetes · OpenShift · AWS · GCP · Azure · CI/CD · automação de deploy
+**Cloud e plataforma**  
+AWS · Azure · GCP · Docker · Kubernetes · OpenShift · Terraform · CI/CD
 
-**Observabilidade, testes e qualidade**  
-Micrometer · OpenTelemetry · Prometheus · Grafana · Datadog · New Relic · ELK · JUnit · Mockito · Testcontainers · JaCoCo · Sonar
+**Observabilidade**  
+OpenTelemetry · Micrometer · Prometheus · Grafana · ELK · Datadog · Jaeger
 
-Também tenho experiência com frontend e mobile híbrido em contextos de integração e apoio ponta a ponta, incluindo Angular, React, Vue, Ionic e Flutter. Meu foco principal permanece backend, arquitetura aplicada e sistemas distribuídos.
+## Como trabalho
 
----
+Prefiro começar pelo domínio, pelos fluxos de negócio, integrações e riscos antes de escolher tecnologia. Mensageria, cache, microsserviços ou serverless entram quando resolvem um problema concreto.
 
-## Projetos selecionados
+Em sistemas distribuídos, trato idempotência, retry, DLQ, reprocessamento, observabilidade e rastreabilidade como parte da arquitetura, não como detalhes posteriores.
 
-### Plataformas SaaS, multitenancy e arquitetura aplicada
-
-| Projeto | Descrição | Stack |
-| --- | --- | --- |
-| [**archlens-ai**](https://github.com/ricartefelipe/archlens-ai) | Plataforma multitenant para governança e diagnóstico arquitetural, com ingestão de repositórios, análise estática de código, contratos OpenAPI, ADRs, RAG, processamento assíncrono e relatórios com evidências rastreáveis. | Quarkus 3 · Java 21 · PostgreSQL/pgvector · Redis · RabbitMQ · Keycloak · Next.js · Python |
-| [**spring-saas-core**](https://github.com/ricartefelipe/spring-saas-core) | Serviço central de governança multitenant para SaaS B2B, com tenants, RBAC/ABAC, feature flags, auditoria, JWT, outbox transacional, observabilidade e documentação OpenAPI. | Java 21 · Spring Boot 3 · PostgreSQL · Redis · RabbitMQ · Docker |
-| [**comercial-cloud**](https://github.com/ricartefelipe/comercial-cloud) | Plataforma SaaS multitenant para PDV e retaguarda web, com produtos, estoque, caixa, vendas, financeiro, dashboard, isolamento por tenant, auditoria, OpenAPI e migrations. | Quarkus 3 · Java 21 · PostgreSQL · Next.js · Docker · Keycloak |
-
----
-
-### Sistemas transacionais, mensageria e confiabilidade operacional
-
-| Projeto | Descrição | Stack |
-| --- | --- | --- |
-| [**assinaflow**](https://github.com/ricartefelipe/assinaflow) | Sistema de gestão de assinaturas para streaming, com renovação automática, cancelamento no fim do ciclo, retry determinístico de cobrança, proteção contra concorrência, idempotência no consumidor e execução segura em múltiplas instâncias. | Java 21 · Spring Boot 3 · PostgreSQL · Liquibase · RabbitMQ · Redis · Testcontainers · Prometheus |
-| [**py-payments-ledger**](https://github.com/ricartefelipe/py-payments-ledger) | Motor de pagamentos com ledger de dupla entrada, múltiplos gateways, reconciliação financeira, criptografia em repouso, idempotência, outbox e persistência transacional. | Python · FastAPI · SQLAlchemy · PostgreSQL · RabbitMQ |
-| [**node-b2b-orders**](https://github.com/ricartefelipe/node-b2b-orders) | API de pedidos e inventário para cenário B2B, com outbox pattern, worker assíncrono, idempotência, paginação keyset, Redis, RabbitMQ, PostgreSQL, ABAC e circuit breaker. | Node.js · NestJS · Prisma · PostgreSQL · Redis · RabbitMQ |
-| [**order-service**](https://github.com/ricartefelipe/order-service) | Microserviço de pedidos com foco em recebimento, processamento, cálculo de totais e organização do fluxo transacional. | Java · Spring Boot · APIs REST · persistência · integração |
-
----
-
-### APIs financeiras, cartões e segurança aplicada
-
-| Projeto | Descrição | Stack |
-| --- | --- | --- |
-| [**cards-api**](https://github.com/ricartefelipe/cards-api) | API REST para gestão de contas, clientes e cartões físicos e virtuais, com autenticação OAuth2/JWT via Keycloak, webhooks com API Key, integração simulada com transportadora e processadora e consulta de CVV sob demanda sem persistência sensível. | Quarkus · Java 21 · MariaDB · Flyway · Keycloak · OAuth2/OIDC · JWT · Docker · JaCoCo |
-| [**oficina-auth-lambda**](https://github.com/ricartefelipe/oficina-auth-lambda) | Função serverless de autenticação com CPF e JWT, usando AWS Lambda, SAM, Terraform, testes automatizados e integração contínua. | Python · AWS Lambda · SAM · Terraform · JWT |
-
----
-
-### B2B, frontend integrado e experiência operacional
-
-| Projeto | Descrição | Stack |
-| --- | --- | --- |
-| [**fluxe-b2b-suite**](https://github.com/ricartefelipe/fluxe-b2b-suite) | Suite frontend B2B com loja, portal de operações e console administrativo, integrando governança, pedidos e pagamentos em uma experiência operacional única. | Angular · Nx · TypeScript · SSR · APIs REST |
-
----
-
-### Ecossistema Oficina e laboratórios cloud-native
-
-| Projeto | Descrição | Stack |
-| --- | --- | --- |
-| [**oficina-app**](https://github.com/ricartefelipe/oficina-app) | Aplicação Spring Boot com Dockerfile, manifests Helm, pipeline de build e imagem e deploy em Kubernetes. | Java · Spring Boot · Docker · Helm · Kubernetes |
-| [**oficina-execution-service**](https://github.com/ricartefelipe/oficina-execution-service) | Serviço de execução dentro do domínio de oficina, separado por responsabilidade e preparado para integração com outros serviços do ecossistema. | Java · Spring Boot · APIs REST |
-| [**oficina-billing-service**](https://github.com/ricartefelipe/oficina-billing-service) | Serviço de cobrança e faturamento dentro do ecossistema de oficina, isolando regras e responsabilidades financeiras do domínio. | Java · Spring Boot · APIs REST |
-| [**oficina-springboot-mvp**](https://github.com/ricartefelipe/oficina-springboot-mvp) | Sistema de gerenciamento de serviços em oficinas mecânicas, com organização MVC e fluxo operacional para clientes, veículos e ordens de serviço. | Java · Spring Boot MVC |
-
----
-
-### Infraestrutura, automação e apoio técnico
-
-| Projeto | Descrição | Stack |
-| --- | --- | --- |
-| [**oficina-infra-kubernetes**](https://github.com/ricartefelipe/oficina-infra-kubernetes-) | Infraestrutura como código para cluster Kubernetes, com laboratório local em Kind e estrutura preparada para EKS. | Kubernetes · Kind · EKS · Terraform |
-| [**oficina-infra-database**](https://github.com/ricartefelipe/oficina-infra-database) | Infraestrutura como código para banco de dados em nuvem, incluindo VPC, subnets, RDS PostgreSQL e security groups. | AWS · RDS · PostgreSQL · Terraform |
-
----
-
-## Como eu costumo trabalhar
-
-- Começo pelo domínio, pelo fluxo de negócio, pelas integrações e pelos riscos antes de escolher tecnologia
-- Prefiro contratos claros, responsabilidades bem separadas e sistemas que sejam fáceis de operar
-- Uso mensageria quando ela resolve acoplamento, resiliência, volume ou assincronismo real
-- Trato idempotência, retry, DLQ e reprocessamento como requisitos de sistemas distribuídos
-- Considero observabilidade, segurança e rastreabilidade partes estruturais da arquitetura
-- Evito complexidade gratuita, mas também evito simplificações que escondem acoplamento ou risco
-- Busco arquiteturas evolutivas, previsíveis e sustentáveis em produção
-
----
-
-## Interesses técnicos atuais
-
-- Arquitetura de sistemas distribuídos
-- Modernização de aplicações corporativas
-- Plataformas internas e engenharia de software aplicada
-- Event-driven architecture, outbox, idempotência e consistência operacional
-- Observabilidade, confiabilidade e sustentação de sistemas críticos
-- IA aplicada à engenharia de software, análise de código, RAG e automação técnica
-
----
+Meu objetivo é construir soluções que funcionem bem no código e continuem compreensíveis, operáveis e evolutivas quando chegam à produção.
 
 ## Contato
 
-- LinkedIn: [Felipe Ricarte Magalhães](https://www.linkedin.com/in/felipe-ricarte-magalhaes/)
-- GitHub: [github.com/ricartefelipe](https://github.com/ricartefelipe)
-- Site: [codigodeproducao.com.br](https://codigodeproducao.com.br/)
-- Portfólio: [ricartefelipe.github.io](https://ricartefelipe.github.io/)
+- [LinkedIn](https://www.linkedin.com/in/felipe-ricarte-magalhaes/)
+- [Portfólio](https://ricartefelipe.github.io/)
+- [Código de Produção](https://codigodeproducao.com.br/)
