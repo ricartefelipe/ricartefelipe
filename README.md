@@ -65,7 +65,7 @@ O conjunto `oficina-*` acompanha a evolução de um sistema de oficina mecânica
 - [**oficina-execution-service**](https://github.com/ricartefelipe/oficina-execution-service)
 - [**oficina-auth-lambda**](https://github.com/ricartefelipe/oficina-auth-lambda)
 - [**oficina-infra-database**](https://github.com/ricartefelipe/oficina-infra-database)
-- [**oficina-infra-kubernetes**](https://github.com/ricartefelipe/oficina-infra-kubernetes-)
+- [**oficina-infra-kubernetes**](https://github.com/ricartefelipe/oficina-infra-kubernetes)
 - [**FIAP X API Service**](https://github.com/ricartefelipe/fiapx-api-service)
 - [**FIAP X Processor Service**](https://github.com/ricartefelipe/fiapx-processor-service)
 
