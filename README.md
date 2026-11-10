@@ -6,7 +6,7 @@
 <h1 align="center">Software Architect · Senior Backend Engineer</h1>
 
 <p align="center">
-  <strong>Java &amp; Kotlin · Sistemas distribuídos · Arquitetura orientada a eventos</strong>
+  <strong>Java &amp; Arquiteto de Software · Tech Lead · Senior Backend Engineer · Java · Kotlin · Spring Boot · Quarkus · Ruby on Rails · Go · Python · Sistemas distribuídos · Arquitetura orientada a eventos · Kubernetes · Cloud Computing · AWS · Azure · GCP</strong>
 </p>
 
 <p align="center">
