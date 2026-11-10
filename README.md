@@ -3,7 +3,7 @@
   <img src="./assets/profile/header.svg" alt="Felipe Ricarte Magalhães — Arquitetura. Código. Produção. Software Architect & Tech Lead & Senior Backend Engineer, com mais de 18 anos de experiência." width="100%">
 </picture>
 
-<h1 align="center">Software Architect · Senior Backend Engineer</h1>
+<h1 align="center">Software Architect & Tech Lead & Senior Backend Engineer</h1>
 
 <p align="center">
   <strong>Java &amp; Arquiteto de Software · Tech Lead · Senior Backend Engineer · Java · Kotlin · Spring Boot · Quarkus · Ruby on Rails · Go · Python · Sistemas distribuídos · Arquitetura orientada a eventos · Kubernetes · Cloud Computing ( AWS · Azure · GCP )</strong>
