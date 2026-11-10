@@ -1,6 +1,6 @@
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/profile/header-mobile.svg">
-  <img src="./assets/profile/header.svg" alt="Felipe Ricarte Magalhães — Arquitetura. Código. Produção. Software Architect e Senior Backend Engineer, com mais de 18 anos de experiência." width="100%">
+  <img src="./assets/profile/header.svg" alt="Felipe Ricarte Magalhães — Arquitetura. Código. Produção. Software Architect & Tech Lead & Senior Backend Engineer, com mais de 18 anos de experiência." width="100%">
 </picture>
 
 <h1 align="center">Software Architect · Senior Backend Engineer</h1>
