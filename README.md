@@ -30,7 +30,7 @@ Sou arquiteto de software e desenvolvedor backend sênior, com mais de 18 anos d
 
 Construí minha trajetória perto do código e dos problemas reais: investigar incidentes, entender sistemas legados, melhorar performance, integrar aplicações e evoluir plataformas que precisam continuar funcionando enquanto mudam.
 
-**Meu foco:** backend Java/Kotlin, modernização, integrações, plataformas SaaS B2B e confiabilidade em produção.
+**\*\*Meu foco:** \*\*arquitetura de software, liderança técnica, desenvolvimento backend com Java, Kotlin, Spring Boot, Quarkus, Ruby on Rails, Go e Python, sistemas distribuídos, arquitetura orientada a eventos, microsserviços, modernização de sistemas legados, integrações corporativas, plataformas SaaS B2B, Cloud Computing (AWS, Azure e GCP), Kubernetes, escalabilidade, segurança, observabilidade e confiabilidade em produção.
 
 ### Como trabalho
 
